@@ -21,14 +21,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!-- TestNG suite XML files -->
-                        <suite name="Example test run">
-                            <test name="Simple Test">
-                                <classes>
-                                    <class name="com.example.Main"/>
-                                </classes>
-                            </test>
-                        </suite>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>C:\Users\nisre\Downloads\selenuim_test\testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
