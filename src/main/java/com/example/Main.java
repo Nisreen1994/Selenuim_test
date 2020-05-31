@@ -1,10 +1,12 @@
 package com.example;
 
-import org.junit.Assert;
+//import org.junit.Assert;
+import org.testng.Assert;
 import java.util.List;
 
 import org.junit.FixMethodOrder;
-import org.junit.Test;
+//import org.junit.Test;
+import org.testng.annotations.Test;
 import org.junit.runners.MethodSorters;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
