@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 266.293 sec <<< FAILURE! - in TestSuite
+test3_AddNewProject(com.example.Main)  Time elapsed: 87.192 sec  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [3]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.example.Main.test3_AddNewProject(Main.java:96)
+

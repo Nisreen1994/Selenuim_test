@@ -78,7 +78,7 @@ public class Main {
         //driver.findElement(By.id("8")).click();
         try{
             //Wait 10 seconds till alert is present
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(driver, 50);
             Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 
             //Accepting alert.
@@ -93,7 +93,8 @@ public class Main {
         dropDownButton.click();
         List<WebElement> options = driver.findElements(By.xpath("//*[@id=\"simple-menu\"]/div[3]/ul/li"));
         int actual_No_Options = options.size();
-        Assert.assertEquals(3, actual_No_Options);
+        //Assert.assertEquals(3, );
+        Assert.assertEquals(actual_No_Options,3);
         System.out.println("options "+  options.size());
         //driver.findElement(By.id("8")).click();
         //WebElement text_field = driver.findElement(By.xpath("//*[@id=\"standard-basic\"]"));
@@ -155,7 +156,7 @@ public class Main {
         driver.findElement(By.id("add-Data-Form")).click();
         try{
             //Wait 10 seconds till alert is present
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(driver, 50);
             Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 
             //Accepting alert.
@@ -203,7 +204,7 @@ public class Main {
 
         try{
             //Wait 10 seconds till alert is present
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(driver, 50);
             Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 
             //Accepting alert.
@@ -241,7 +242,7 @@ public class Main {
 
         try{
             //Wait 10 seconds till alert is present
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(driver, 50);
             Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 
             //Accepting alert.
